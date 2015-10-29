@@ -1,0 +1,106 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.key, .chord {
+  position: relative;
+  height: 200px;
+  width: 50px;
+  float: left;
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 15px;
+  box-shadow: 0px 2px;
+}
+
+.key-label {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+}
+
+.key.pressed, .chord.pressed {
+  top: 4px;
+  background-color: #F1F1F1;
+}
+
+.black.pressed {
+  top: 32px;
+  background-color: black;
+}
+
+.key-container {
+  position: relative;
+  display: block;
+  clear: both;
+  margin: auto;
+  padding: 30px;
+  width: 425px;
+}
+
+.black {
+  float: left;
+  z-index: 1000;
+  background-color: black;
+  width: 40px;
+  height: 120px;
+  color: white;
+  box-shadow: none;
+}
+
+.black > .key-label {
+  left: 15px;
+}
+
+.chord-container {
+  display: block;
+  clear: both;
+  padding: 30px;
+  margin: auto;
+  width: 365px;
+}
+
+.key.black.W {
+  position: absolute;
+  left: 60px;
+}
+
+.key.black.E {
+  position: absolute;
+  left: 114px;
+}
+
+.key.black.T {
+  position: absolute;
+  left: 217px;
+}
+
+.key.black.Y {
+  position: absolute;
+  left: 269px;
+}
+
+.key.black.U {
+  position: absolute;
+  left: 322px;
+}
