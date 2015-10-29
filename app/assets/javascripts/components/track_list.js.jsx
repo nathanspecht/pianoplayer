@@ -21,6 +21,7 @@
     render: function() {
       return (
         <ul className="track-list">
+          <h2>Tracks</h2>
           {
             this.state.tracks.map(function(track, idx){
               return <li key={idx}><root.TrackPlayer track={track}/></li>;

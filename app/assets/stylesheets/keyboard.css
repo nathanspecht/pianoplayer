@@ -1,0 +1,87 @@
+.key, .chord {
+  position: relative;
+  height: 200px;
+  width: 50px;
+  float: left;
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 15px;
+  box-shadow: 0px 2px;
+}
+
+.chord {
+  background: linear-gradient(0deg, #FFFFFF 30%,rgb(0, 0, 0) 100%);
+}
+
+.key-label {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+.key.pressed, .chord.pressed {
+  top: 4px;
+  background-color: #F1F1F1;
+}
+
+.black.pressed {
+  background-color: black;
+}
+
+.key-container {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 425px;
+  height: 200px;
+}
+
+.black {
+  float: left;
+  z-index: 1000;
+  background-color: black;
+  width: 40px;
+  height: 120px;
+  color: white;
+  box-shadow: none;
+}
+
+.black > .key-label {
+  left: 15px;
+}
+
+.chord-container {
+  position: absolute;
+  z-index: -1;
+  top: 80px;
+  left: 210px;
+  width: 365px;
+}
+
+.key.black.W {
+  position: absolute;
+  left: 30px;
+}
+
+.key.black.E {
+  position: absolute;
+  left: 84px;
+}
+
+.key.black.T {
+  position: absolute;
+  left: 187px;
+}
+
+.key.black.Y {
+  position: absolute;
+  left: 239px;
+}
+
+.key.black.U {
+  position: absolute;
+  left: 292px;
+}

@@ -10,8 +10,13 @@
       if (this.state.pressed) {
         className += " pressed";
       }
-      return (<div className={className}></div>);
+      return (<div className={className}>
+                <div className="key-label">
+                  {this.props.chordName}
+                </div>
+              </div>);
     },
+
     getInitialState: function () {
       return { pressed: false };
     },

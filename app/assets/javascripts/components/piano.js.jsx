@@ -2,10 +2,10 @@
 
 (function(root) {
   'use strict';
-  root.Organ = React.createClass({
+  root.Piano = React.createClass({
     render: function () {
       return(
-        <div>
+        <div className="piano">
           <div className="key-container">
             {
               Object.keys(root.TONES).map(function(note) {
@@ -20,10 +20,7 @@
               })
             }
           </div>
-          <div className="playback">
-            <root.Recorder />
-            <root.TrackList />
-          </div>
+
         </div>
       );
     }

@@ -33,14 +33,13 @@
     render: function () {
       return (
         <div className="track-player">
-          <span>{this.props.track.name}</span>
           {this.state.isPlaying ?
-            <div>
-              <button onClick={ this.stopTrack }>Stop</button>
+            <div className="gray">
+              <button onClick={ this.stopTrack }>{this.props.track.name}</button>
             </div>
             :
             <div>
-              <button onClick={ this.playTrack }>Play</button>
+              <button onClick={ this.playTrack }>{this.props.track.name}</button>
             </div>}
         </div>
       );

@@ -13,94 +13,36 @@
  *= require_tree .
  *= require_self
  */
-.key, .chord {
-  position: relative;
-  height: 200px;
-  width: 50px;
-  float: left;
-  border: solid 1px black;
-  background-color: white;
-  border-radius: 10px;
-  text-align: center;
-  font-family: helvetica;
-  font-size: 15px;
-  box-shadow: 0px 2px;
-}
 
-.key-label {
-  position: absolute;
-  bottom: 0;
-  left: 20px;
-}
+ html {
+   height: 100%;
+ }
 
-h1 {
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Pacifico', cursive;
-}
+ body {
+   background: linear-gradient(45deg, #00FFF0 0%,rgb(255, 89, 227) 100%);
+ }
 
-.key.pressed, .chord.pressed {
-  top: 4px;
-  background-color: #F1F1F1;
-}
+ div#content {
+   position: relative;
+   width: 800px;
+   height: 330px;
+   padding: 60px;
+   padding-top: 20px;
+   margin: auto;
+   border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0.17);
+   font-family: helvetica;
+ }
 
-.black.pressed {
-  top: 32px;
-  background-color: black;
-}
+ h1 {
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Pacifico';
+   text-shadow: 0px 0px 20px white;
+   border-bottom: 10px;
+ }
 
-.key-container {
-  position: relative;
-  display: block;
-  clear: both;
-  margin: auto;
-  padding: 30px;
-  width: 425px;
-}
-
-.black {
-  float: left;
-  z-index: 1000;
-  background-color: black;
-  width: 40px;
-  height: 120px;
-  color: white;
-  box-shadow: none;
-}
-
-.black > .key-label {
-  left: 15px;
-}
-
-.chord-container {
-  display: block;
-  clear: both;
-  padding: 30px;
-  margin: auto;
-  width: 365px;
-}
-
-.key.black.W {
-  position: absolute;
-  left: 60px;
-}
-
-.key.black.E {
-  position: absolute;
-  left: 114px;
-}
-
-.key.black.T {
-  position: absolute;
-  left: 217px;
-}
-
-.key.black.Y {
-  position: absolute;
-  left: 269px;
-}
-
-.key.black.U {
-  position: absolute;
-  left: 322px;
-}
+ .piano {
+   position: relative;
+   z-index: -1;
+ }
