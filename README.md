@@ -1,6 +1,6 @@
 # Piano Player
-Piano player is a browser keyboard built using React.js with Flux
-architecture to play, record and save tracks.
+Piano player is a browser keyboard built using React.js. Flux
+architecture used to play, record and save tracks.
 
 [Play Here!](https://pianoplayer.herokuapp.com)
 
