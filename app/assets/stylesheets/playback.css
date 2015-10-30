@@ -34,7 +34,8 @@ button:focus {
   top: 20px;
   border-radius: 3px;
   -webkit-padding-start: 0px;
-  background: linear-gradient(0deg, #3CAFA8 -160%,#00fff0 110%);
+  background: linear-gradient(40deg, #3CAFA8 -100%, #00fff0 60%);
+  box-shadow: 1px 1px black;
 }
 
 .track-list h2 {
@@ -45,6 +46,7 @@ button:focus {
   text-align: center;
   z-index: 1;
   color: black;
+  text-shadow: 2px 2px #FFFFFF;
 }
 
 .track-player {
