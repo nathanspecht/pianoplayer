@@ -5,8 +5,8 @@ architecture to play, record and save tracks.
 [Play Here!](pianoplayer.herokuapp.com)
 
 ## To Do
-[] Hold shift to change octaves
-[] Add feature to select which chords are played on bottom keys
+[ ] Hold shift to change octaves
+[ ] Add feature to select which chords are played on bottom keys
 
 ## Current Features
 - Play notes
