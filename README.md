@@ -2,7 +2,7 @@
 Piano player is a browser keyboard built using React.js with Flux
 architecture to play, record and save tracks.
 
-[Play Here!](pianoplayer.herokuapp.com)
+[Play Here!](https://pianoplayer.herokuapp.com)
 
 ## To Do
 - [ ] Hold shift to change octaves
