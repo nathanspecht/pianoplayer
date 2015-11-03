@@ -4,10 +4,6 @@ architecture used to play, record and save tracks.
 
 [Play Here!](https://pianoplayer.herokuapp.com)
 
-## To Do
-- [ ] Hold shift to change octaves
-- [ ] Add feature to select which chords are played on bottom keys
-
 ## Current Features
 - Play notes
 - Play chords
@@ -44,3 +40,7 @@ architecture used to play, record and save tracks.
     }
   }.bind(this), this.interval);
 ```
+
+## To Do
+- [ ] Hold shift to change octaves
+- [ ] Add feature to select which chords are played on bottom keys
