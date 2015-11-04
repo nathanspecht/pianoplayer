@@ -27,6 +27,7 @@ button:focus {
   position: absolute;
   width: 190px;
   margin: 0px;
+  padding: 0px;
   height: 332px;
   overflow: scroll;
   z-index: 10;
@@ -42,7 +43,6 @@ button:focus {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 0px;
-  padding-left: 0px;
   margin-bottom: 0px;
   text-align: center;
   z-index: 1;
